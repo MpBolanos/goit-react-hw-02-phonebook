@@ -2,6 +2,11 @@
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 1px 0 rgba(17, 17, 26, 0.1), 0 8px 24px rgba(17, 17, 26, 0.1),
+      0 16px 48px rgba(17, 17, 26, 0.1);
+    padding: 30px;  
+    border-radius: 5px;
   }
 
   .contacts__list {
@@ -13,28 +18,32 @@
   }
 
   .contacts__btn {
-    width: 100px;
-    background-color: #f3faff;
-    border: none;
-    border-radius: 5px;
-    color: #82909e;
     cursor: pointer;
     padding: 10px;
+    border: none;
+    border-radius: 5px;
     text-align: center;
-    transition: all 0.8s;
-    margin: 0 auto 0;
+    background-color: #f3faff;
+    color: #afacac;
+    transition: all 800ms;
+    text-transform: capitalize;
+    box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
+    transition: box-shadow 0.3s ease;
+    font-weight: bold;
   }
   
   .contacts__btn:hover {
     background-color: #595a5c;
-    color: #fff;
+    color: white;
+    box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.8);
   }
 
   .contacts__item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px;
+    margin: 10px;
+    flex: calc(25% - 40px);
     
   }
 
