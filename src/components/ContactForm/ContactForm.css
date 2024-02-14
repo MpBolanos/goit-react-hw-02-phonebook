@@ -6,6 +6,8 @@
 
   .form__title {
     display: flex;
+    font-size: 30px;
+
   }
 
   .form__container {
@@ -17,6 +19,7 @@
   .form__label {
     padding-bottom: 10px;
     margin-left: 10px;
+    font-size: 14px;
   }
 
   .form__input {
