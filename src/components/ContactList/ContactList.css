@@ -11,7 +11,8 @@
 
   .contacts__list {
     display: flex;
-    align-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-between;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -42,8 +43,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10px;
-    flex: calc(25% - 40px);
+    margin: 10px; 
     
   }
 
